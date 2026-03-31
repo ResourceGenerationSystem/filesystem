@@ -1,14 +1,19 @@
 "start": [
       {
-        "resource": "promptModifiersRouting.json",
-        "location": "https://github.com/ResourceGenerationSystem/filesystem/utils/enhancers_
+        file: "startupInstructions.md",
+        url: "https://github.com/ResourceGenerationSystem/filesystem/tasks/"
+
+                        {
+        file: "master-router.cfg",
+        url: "https://github.com/ResourceGenerationSystem/filesystem/config/workers/"
       },
-      {
-        "id": 1,
-        "execute_task":  
+            {
+        file: "routerPromptModifiers.json",
+        url: "https://github.com/ResourceGenerationSystem/filesystem/prompting/members/master-router/"
       },
-      {
-        "id": 2,
-        "execute_task": 
-      }
+            {
+        file: "dataMap.csv",
+        url: "https://github.com/ResourceGenerationSystem/filesystem/nav/"
+      },
+
 ]
