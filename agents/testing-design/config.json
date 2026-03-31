@@ -1,0 +1,16 @@
+{
+  "agentName": "testing-design",
+  "description": "Designs and specifies test strategies, test cases, and quality validation frameworks for agents and workflows",
+  "capabilities": ["test-strategy-design", "test-case-specification", "failure-mode-analysis", "regression-design", "quality-validation"],
+  "inputSchema": {
+    "targetAgent": "string",
+    "scope": "string",
+    "testSuite": "object"
+  },
+  "outputSchema": {
+    "testPlan": "object",
+    "passed": "number",
+    "failed": "number",
+    "report": "object"
+  }
+}

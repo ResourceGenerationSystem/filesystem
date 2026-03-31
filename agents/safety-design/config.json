@@ -1,0 +1,15 @@
+{
+  "agentName": "safety-design",
+  "description": "Designs and enforces safety rules, constraints, and guardrails for agents, workflows, and outputs",
+  "capabilities": ["safety-rule-design", "guardrail-specification", "risk-identification", "violation-response-design", "escalation-policy-design"],
+  "inputSchema": {
+    "targetComponent": "string",
+    "riskContext": "object",
+    "constraints": "array"
+  },
+  "outputSchema": {
+    "safetySpec": "object",
+    "rules": "array",
+    "escalationPaths": "array"
+  }
+}

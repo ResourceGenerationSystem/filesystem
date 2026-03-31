@@ -1,1 +1,28 @@
-{\n  "routerName": "master-router",\n  "hosts": [\n    {\n      "host": "host1.local",\n      "port": 8080\n    },\n    {\n      "host": "host2.local",\n      "port": 8081\n    }\n  ],\n  "timeout": 3000,\n  "retryCount": 5\n}
+{
+  "agentName": "master-router",
+  "description": "Routes incoming requests to the appropriate channel agent based on task classification, trigger evaluation, and enhancement pipeline",
+  "capabilities": ["routing", "prompt-enhancement", "trigger-evaluation", "channel-assignment", "multi-stage-orchestration"],
+  "channels": [
+    "AgentBuilder",
+    "PromptDesign",
+    "ReasoningDesign",
+    "SkillBuilder",
+    "ToolBuilder",
+    "WorkflowDesign",
+    "MemoryDesign",
+    "ContextBuilder",
+    "TestingDesign",
+    "SafetyDesign"
+  ],
+  "inputSchema": {
+    "prompt": "string",
+    "triggerContext": "object"
+  },
+  "outputSchema": {
+    "primaryChannel": "string",
+    "secondaryChannels": "array",
+    "triggerActivated": "string",
+    "enhancedPrompt": "string",
+    "routingRationale": "string"
+  }
+}

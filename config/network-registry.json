@@ -1,16 +1,16 @@
 {
   "agents": [
-    { "id": "master-router",       "path": "agents/master-router",       "status": "active" },
-    { "id": "kimi-k2-5",           "path": "models/kimi-k2-5",           "status": "active", "type": "external-model", "platform": "azure-ai-foundry" },
-    { "id": "agent-builder",       "path": "agents/agent-builder",       "status": "active" },
-    { "id": "prompt-design",       "path": "agents/prompt-design",       "status": "active" },
-    { "id": "reasoning-design",    "path": "agents/reasoning-design",    "status": "active" },
-    { "id": "skill-builder",       "path": "agents/skill-builder",       "status": "active" },
-    { "id": "tool-builder",        "path": "agents/tool-builder",        "status": "active" },
-    { "id": "workflow-design",     "path": "agents/workflow-design",     "status": "active" },
-    { "id": "memory-design",       "path": "agents/memory-design",       "status": "active" },
-    { "id": "context-builder",     "path": "agents/context-builder",     "status": "active" },
-    { "id": "testing-routine",     "path": "agents/testing-routine",     "status": "active" },
-    { "id": "instructions-builder","path": "agents/instructions-builder","status": "active" }
+    { "id": "master-router",    "path": "agents/master-router",    "status": "active" },
+    { "id": "kimi-k2-5",        "path": "models/kimi-k2-5",        "status": "active", "type": "external-model", "platform": "azure-ai-foundry" },
+    { "id": "agent-builder",    "path": "agents/agent-builder",    "status": "active" },
+    { "id": "prompt-design",    "path": "agents/prompt-design",    "status": "active" },
+    { "id": "reasoning-design", "path": "agents/reasoning-design", "status": "active" },
+    { "id": "skill-builder",    "path": "agents/skill-builder",    "status": "active" },
+    { "id": "tool-builder",     "path": "agents/tool-builder",     "status": "active" },
+    { "id": "workflow-design",  "path": "agents/workflow-design",  "status": "active" },
+    { "id": "memory-design",    "path": "agents/memory-design",    "status": "active" },
+    { "id": "context-builder",  "path": "agents/context-builder",  "status": "active" },
+    { "id": "testing-design",   "path": "agents/testing-design",   "status": "active" },
+    { "id": "safety-design",    "path": "agents/safety-design",    "status": "active" }
   ]
 }
