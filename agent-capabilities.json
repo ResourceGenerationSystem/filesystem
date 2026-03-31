@@ -1,16 +1,16 @@
 {
   "capabilities": [
-    { "agentId": "kimi-k2-5",           "capabilities": ["long-context-reasoning", "instruction-following", "tool-use", "multi-step-planning", "code-generation", "repo-communication"] },
-    { "agentId": "master-router",        "capabilities": ["routing", "load-balancing", "request-dispatch"] },
-    { "agentId": "agent-builder",        "capabilities": ["agent-scaffolding", "agent-registration", "agent-configuration"] },
-    { "agentId": "prompt-design",        "capabilities": ["prompt-authoring", "prompt-optimization", "prompt-testing"] },
-    { "agentId": "reasoning-design",     "capabilities": ["chain-of-thought", "logical-decomposition", "inference-planning"] },
-    { "agentId": "skill-builder",        "capabilities": ["skill-registration", "skill-composition", "skill-validation"] },
-    { "agentId": "tool-builder",         "capabilities": ["tool-creation", "tool-registration", "api-integration"] },
-    { "agentId": "workflow-design",      "capabilities": ["workflow-creation", "step-sequencing", "dependency-resolution"] },
-    { "agentId": "memory-design",        "capabilities": ["memory-schema-design", "memory-retrieval", "memory-compression"] },
-    { "agentId": "context-builder",      "capabilities": ["context-assembly", "context-pruning", "context-injection"] },
-    { "agentId": "testing-routine",      "capabilities": ["test-generation", "test-execution", "regression-tracking"] },
-    { "agentId": "instructions-builder", "capabilities": ["instruction-authoring", "instruction-validation", "instruction-versioning"] }
+    { "agentId": "kimi-k2-5",        "capabilities": ["long-context-reasoning", "instruction-following", "tool-use", "multi-step-planning", "code-generation", "repo-communication"] },
+    { "agentId": "master-router",    "capabilities": ["routing", "prompt-enhancement", "trigger-evaluation", "channel-assignment", "multi-stage-orchestration"] },
+    { "agentId": "agent-builder",    "capabilities": ["agent-scaffolding", "agent-registration", "agent-configuration"] },
+    { "agentId": "prompt-design",    "capabilities": ["prompt-authoring", "prompt-optimization", "prompt-testing"] },
+    { "agentId": "reasoning-design", "capabilities": ["chain-of-thought", "logical-decomposition", "inference-planning"] },
+    { "agentId": "skill-builder",    "capabilities": ["skill-registration", "skill-composition", "skill-validation"] },
+    { "agentId": "tool-builder",     "capabilities": ["tool-creation", "tool-registration", "api-integration"] },
+    { "agentId": "workflow-design",  "capabilities": ["workflow-creation", "step-sequencing", "dependency-resolution"] },
+    { "agentId": "memory-design",    "capabilities": ["memory-schema-design", "memory-retrieval", "memory-compression"] },
+    { "agentId": "context-builder",  "capabilities": ["context-assembly", "context-pruning", "context-injection"] },
+    { "agentId": "testing-design",   "capabilities": ["test-strategy-design", "test-case-specification", "failure-mode-analysis", "regression-design", "quality-validation"] },
+    { "agentId": "safety-design",    "capabilities": ["safety-rule-design", "guardrail-specification", "risk-identification", "violation-response-design", "escalation-policy-design"] }
   ]
 }
