@@ -1,1 +1,14 @@
-{"configurations": {}}
+{
+  "agentName": "prompt-design",
+  "description": "Designs and optimizes prompts for AI models and agent interactions",
+  "capabilities": ["prompt-authoring", "prompt-optimization", "prompt-testing"],
+  "inputSchema": {
+    "task": "string",
+    "model": "string",
+    "constraints": "array"
+  },
+  "outputSchema": {
+    "prompt": "string",
+    "version": "string"
+  }
+}

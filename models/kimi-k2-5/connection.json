@@ -1,0 +1,24 @@
+{
+  "modelId": "kimi-k2-5",
+  "repoRef": "https://github.com/0langa/filesystem",
+  "agentConnections": [
+    { "agentId": "master-router",        "access": "read-write", "priority": 1 },
+    { "agentId": "context-builder",      "access": "read-write", "priority": 2 },
+    { "agentId": "memory-design",        "access": "read-write", "priority": 2 },
+    { "agentId": "instructions-builder", "access": "read",       "priority": 3 },
+    { "agentId": "prompt-design",        "access": "read",       "priority": 3 },
+    { "agentId": "reasoning-design",     "access": "read-write", "priority": 3 },
+    { "agentId": "workflow-design",      "access": "read",       "priority": 4 },
+    { "agentId": "tool-builder",         "access": "read",       "priority": 4 },
+    { "agentId": "skill-builder",        "access": "read",       "priority": 4 },
+    { "agentId": "agent-builder",        "access": "read",       "priority": 5 },
+    { "agentId": "testing-routine",      "access": "read",       "priority": 5 }
+  ],
+  "rateLimits": {
+    "requestsPerMinute": 60,
+    "tokensPerMinute": 250000,
+    "concurrentRequests": 10
+  },
+  "callbackUrl": "${KIMI_K2_5_CALLBACK_URL}",
+  "healthCheckInterval": 30000
+}
