@@ -1,0 +1,1 @@
+{\n  "routerName": "master-router",\n  "hosts": [\n    {\n      "host": "host1.local",\n      "port": 8080\n    },\n    {\n      "host": "host2.local",\n      "port": 8081\n    }\n  ],\n  "timeout": 3000,\n  "retryCount": 5\n}
