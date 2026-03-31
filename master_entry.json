@@ -1,19 +1,20 @@
-"start": [
-            {
-              file: "startupInstructions.md",
-              url: "https://github.com/ResourceGenerationSystem/filesystem/tasks/"
-      
-                              {
-              file: "master-router.cfg",
-              url: "https://github.com/ResourceGenerationSystem/filesystem/config/workers/"
-            },
-                  {
-              file: "routerPromptModifiers.json",
-              url: "https://github.com/ResourceGenerationSystem/filesystem/prompting/members/master-router/"
-            },
-                  {
-              file: "dataMap.csv",
-              url: "https://github.com/ResourceGenerationSystem/filesystem/nav/"
-            },
-
-]
+{
+  "start": [
+    {
+      "file": "startupInstructions.md",
+      "url": "https://github.com/ResourceGenerationSystem/filesystem/tasks/"
+    },
+    {
+      "file": "master-router.cfg",
+      "url": "https://github.com/ResourceGenerationSystem/filesystem/config/workers/"
+    },
+    {
+      "file": "routerPromptModifiers.json",
+      "url": "https://github.com/ResourceGenerationSystem/filesystem/prompting/members/master-router/"
+    },
+    {
+      "file": "dataMap.csv",
+      "url": "https://github.com/ResourceGenerationSystem/filesystem/nav/"
+    }
+  ]
+}
