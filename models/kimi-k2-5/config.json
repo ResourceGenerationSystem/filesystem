@@ -1,0 +1,35 @@
+{
+  "modelId": "kimi-k2-5",
+  "provider": "moonshot-ai",
+  "hosting": {
+    "platform": "azure-ai-foundry",
+    "subscriptionId": "${AZURE_SUBSCRIPTION_ID}",
+    "resourceGroup": "${AZURE_RESOURCE_GROUP}",
+    "projectName": "${AZURE_AI_FOUNDRY_PROJECT}",
+    "region": "${AZURE_REGION}",
+    "endpoint": "${AZURE_AI_FOUNDRY_ENDPOINT}",
+    "deploymentName": "kimi-k2-5",
+    "apiVersion": "2024-05-01-preview"
+  },
+  "auth": {
+    "method": "managed-identity",
+    "clientId": "${AZURE_MANAGED_IDENTITY_CLIENT_ID}",
+    "keyVaultUri": "${AZURE_KEYVAULT_URI}",
+    "apiKeySecret": "kimi-k2-5-api-key"
+  },
+  "modelParams": {
+    "maxTokens": 131072,
+    "contextWindow": 131072,
+    "temperature": 0.7,
+    "topP": 0.9,
+    "frequencyPenalty": 0.0,
+    "presencePenalty": 0.0,
+    "streamingEnabled": true
+  },
+  "timeout": 120000,
+  "retryPolicy": {
+    "maxRetries": 3,
+    "backoffMs": 1000,
+    "backoffMultiplier": 2
+  }
+}

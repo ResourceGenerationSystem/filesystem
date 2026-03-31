@@ -1,0 +1,13 @@
+{
+  "agentName": "reasoning-design",
+  "description": "Designs and structures reasoning chains and logic flows for AI agents",
+  "capabilities": ["chain-of-thought", "logical-decomposition", "inference-planning"],
+  "inputSchema": {
+    "task": "string",
+    "context": "object"
+  },
+  "outputSchema": {
+    "reasoningChain": "array",
+    "conclusion": "string"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "agentName": "testing-routine",
+  "description": "Generates and executes test cases to validate agent behavior and outputs",
+  "capabilities": ["test-generation", "test-execution", "regression-tracking"],
+  "inputSchema": {
+    "agentId": "string",
+    "testSuite": "object"
+  },
+  "outputSchema": {
+    "passed": "number",
+    "failed": "number",
+    "report": "object"
+  }
+}
