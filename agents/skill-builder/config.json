@@ -1,0 +1,13 @@
+{
+  "agentName": "skill-builder",
+  "description": "Constructs and registers reusable skills that agents can invoke",
+  "capabilities": ["skill-registration", "skill-composition", "skill-validation"],
+  "inputSchema": {
+    "skillName": "string",
+    "skillDefinition": "object"
+  },
+  "outputSchema": {
+    "skillId": "string",
+    "registered": "boolean"
+  }
+}

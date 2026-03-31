@@ -1,3 +1,15 @@
 {
-  "capabilities": []
+  "capabilities": [
+    { "agentId": "master-router",        "capabilities": ["routing", "load-balancing", "request-dispatch"] },
+    { "agentId": "agent-builder",        "capabilities": ["agent-scaffolding", "agent-registration", "agent-configuration"] },
+    { "agentId": "prompt-design",        "capabilities": ["prompt-authoring", "prompt-optimization", "prompt-testing"] },
+    { "agentId": "reasoning-design",     "capabilities": ["chain-of-thought", "logical-decomposition", "inference-planning"] },
+    { "agentId": "skill-builder",        "capabilities": ["skill-registration", "skill-composition", "skill-validation"] },
+    { "agentId": "tool-builder",         "capabilities": ["tool-creation", "tool-registration", "api-integration"] },
+    { "agentId": "workflow-design",      "capabilities": ["workflow-creation", "step-sequencing", "dependency-resolution"] },
+    { "agentId": "memory-design",        "capabilities": ["memory-schema-design", "memory-retrieval", "memory-compression"] },
+    { "agentId": "context-builder",      "capabilities": ["context-assembly", "context-pruning", "context-injection"] },
+    { "agentId": "testing-routine",      "capabilities": ["test-generation", "test-execution", "regression-tracking"] },
+    { "agentId": "instructions-builder", "capabilities": ["instruction-authoring", "instruction-validation", "instruction-versioning"] }
+  ]
 }

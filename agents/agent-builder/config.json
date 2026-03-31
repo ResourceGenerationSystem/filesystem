@@ -1,1 +1,13 @@
-{"description":"Configuration for agent builder"}
+{
+  "agentName": "agent-builder",
+  "description": "Scaffolds and configures new AI agents within the network",
+  "capabilities": ["agent-scaffolding", "agent-registration", "agent-configuration"],
+  "inputSchema": {
+    "agentType": "string",
+    "agentConfig": "object"
+  },
+  "outputSchema": {
+    "agentId": "string",
+    "registered": "boolean"
+  }
+}

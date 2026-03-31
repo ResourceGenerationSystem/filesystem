@@ -1,0 +1,14 @@
+{
+  "agentName": "instructions-builder",
+  "description": "Composes and refines system-level instructions and prompts for agents",
+  "capabilities": ["instruction-authoring", "instruction-validation", "instruction-versioning"],
+  "inputSchema": {
+    "role": "string",
+    "goals": "array",
+    "constraints": "array"
+  },
+  "outputSchema": {
+    "systemPrompt": "string",
+    "version": "string"
+  }
+}

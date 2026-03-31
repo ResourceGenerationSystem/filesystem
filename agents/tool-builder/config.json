@@ -1,0 +1,14 @@
+{
+  "agentName": "tool-builder",
+  "description": "Creates and configures external tools and integrations available to agents",
+  "capabilities": ["tool-creation", "tool-registration", "api-integration"],
+  "inputSchema": {
+    "toolName": "string",
+    "toolSpec": "object"
+  },
+  "outputSchema": {
+    "toolId": "string",
+    "endpoint": "string",
+    "registered": "boolean"
+  }
+}

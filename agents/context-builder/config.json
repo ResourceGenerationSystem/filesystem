@@ -1,0 +1,13 @@
+{
+  "agentName": "context-builder",
+  "description": "Assembles and manages context windows passed to AI models",
+  "capabilities": ["context-assembly", "context-pruning", "context-injection"],
+  "inputSchema": {
+    "sources": "array",
+    "maxTokens": "number"
+  },
+  "outputSchema": {
+    "contextPayload": "string",
+    "tokenCount": "number"
+  }
+}

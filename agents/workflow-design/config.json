@@ -1,0 +1,13 @@
+{
+  "agentName": "workflow-design",
+  "description": "Designs multi-step workflows and orchestration sequences for agent pipelines",
+  "capabilities": ["workflow-creation", "step-sequencing", "dependency-resolution"],
+  "inputSchema": {
+    "goal": "string",
+    "steps": "array"
+  },
+  "outputSchema": {
+    "workflowId": "string",
+    "graph": "object"
+  }
+}

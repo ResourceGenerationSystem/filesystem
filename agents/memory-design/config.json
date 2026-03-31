@@ -1,0 +1,13 @@
+{
+  "agentName": "memory-design",
+  "description": "Designs and manages memory schemas for short-term and long-term agent memory",
+  "capabilities": ["memory-schema-design", "memory-retrieval", "memory-compression"],
+  "inputSchema": {
+    "memoryType": "string",
+    "data": "object"
+  },
+  "outputSchema": {
+    "memoryId": "string",
+    "schema": "object"
+  }
+}
