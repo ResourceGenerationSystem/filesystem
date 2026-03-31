@@ -1,0 +1,25 @@
+{
+  "modelId": "kimi-k2-5",
+  "startup": [
+    { "path": "master_entry.json",                     "access": "read",  "required": true,  "description": "Bootstrap entry point and resource URLs" },
+    { "path": "config/masterrouter.cfg",               "access": "read",  "required": true,  "description": "Routing rules and agent locations" },
+    { "path": "config/network-registry.json",          "access": "read",  "required": true,  "description": "Full agent network map" },
+    { "path": "agent-capabilities.json",               "access": "read",  "required": true,  "description": "Agent capability index for task routing" }
+  ],
+  "runtime": [
+    { "path": "agents/context-builder/config.json",      "access": "read",       "required": true,  "description": "Context assembly config for each request" },
+    { "path": "agents/memory-design/config.json",        "access": "read-write", "required": true,  "description": "Memory schema for persisting conversation state" },
+    { "path": "agents/instructions-builder/config.json", "access": "read",       "required": true,  "description": "System prompt / instruction templates" },
+    { "path": "agents/prompt-design/config.json",        "access": "read",       "required": true,  "description": "Prompt optimization configs" },
+    { "path": "agents/reasoning-design/config.json",     "access": "read-write", "required": false, "description": "Reasoning chain templates" },
+    { "path": "agents/workflow-design/config.json",      "access": "read",       "required": false, "description": "Multi-step workflow definitions" },
+    { "path": "agents/tool-builder/config.json",         "access": "read",       "required": false, "description": "Available tool definitions" },
+    { "path": "agents/skill-builder/config.json",        "access": "read",       "required": false, "description": "Available skill registry" },
+    { "path": "runtime/task-queue/pending.json",         "access": "read-write", "required": true,  "description": "Active task queue for dispatching and status updates" }
+  ],
+  "writeTargets": [
+    { "path": "runtime/task-queue/pending.json",         "description": "Append new tasks and update task status" },
+    { "path": "agents/memory-design/",                   "description": "Write updated memory schemas and stored states" },
+    { "path": "agents/reasoning-design/",                "description": "Write reasoning traces for audit and reuse" }
+  ]
+}

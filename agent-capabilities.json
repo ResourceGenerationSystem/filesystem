@@ -1,5 +1,6 @@
 {
   "capabilities": [
+    { "agentId": "kimi-k2-5",           "capabilities": ["long-context-reasoning", "instruction-following", "tool-use", "multi-step-planning", "code-generation", "repo-communication"] },
     { "agentId": "master-router",        "capabilities": ["routing", "load-balancing", "request-dispatch"] },
     { "agentId": "agent-builder",        "capabilities": ["agent-scaffolding", "agent-registration", "agent-configuration"] },
     { "agentId": "prompt-design",        "capabilities": ["prompt-authoring", "prompt-optimization", "prompt-testing"] },
